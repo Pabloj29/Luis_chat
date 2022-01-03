@@ -1,0 +1,167 @@
+{
+    "luis_schema_version": "7.0.0",
+    "intents": [
+        {
+            "name": "educativa",
+            "features": []
+        },
+        {
+            "name": "None",
+            "features": []
+        },
+        {
+            "name": "saludos",
+            "features": []
+        }
+    ],
+    "entities": [],
+    "hierarchicals": [],
+    "composites": [],
+    "closedLists": [
+        {
+            "name":"edu",
+            "subLists":[
+                {
+                    "canonicalForm": "moodle",
+                    "list":[
+                        "mudle",
+                        "modle",
+                        "mudol",
+                        "modol",
+                        "mudel"
+                    ]
+                }
+            ] ,
+            "roles": []
+        }
+    ], 
+    "prebuiltEntities": [],
+    "utterances": [
+        {
+            "text": "¿cómo instalar modol?",
+            "intent": "educativa",
+            "entities": []
+        },
+        {
+            "text": "¿cómo instalar moodle?",
+            "intent": "educativa",
+            "entities": []
+        },
+        {
+            "text": "¿cómo instalar mudel?",
+            "intent": "educativa",
+            "entities": []
+        }, 
+        {
+            "text": "¿qué es modol?",
+            "intent": "educativa",
+            "entities": []
+        },
+        {
+            "text": "¿que es moodle?",
+            "intent": "educativa",
+            "entities": []
+        },
+        {
+            "text": "¿qué es mudol?",
+            "intent": "educativa",
+            "entities": []
+        },
+        {
+            "text": "campus",
+            "intent": "educativa",
+            "entities": []
+        },
+        {
+            "text": "campus virtual",
+            "intent": "educativa",
+            "entities": []
+        },
+        {
+            "text": "hola",
+            "intent": "saludos",
+            "entities": []
+        },
+        {
+            "text": "hola buenas noches",
+            "intent": "saludos",
+            "entities": []
+        },
+        {
+            "text": "hola que tal",
+            "intent": "saludos",
+            "entities": []
+        },
+        {
+            "text": "hola, buenas tardes",
+            "intent": "saludos",
+            "entities": []
+        },
+        {
+            "text": "hola, buenas tardes",
+            "intent": "saludos",
+            "entities": []
+        },
+        {
+            "text": "hola, buenos, dias",
+            "intent": "saludos",
+            "entities": []
+        },
+        {
+            "text": "hola, necesito ayuda",
+            "intent": "saludos",
+            "entities": []
+        },
+        {
+            "text": "instalar modol",
+            "intent": "educativa",
+            "entities": []
+        },
+        {
+            "text": "instalar moodle",
+            "intent": "educativa",
+            "entities": []
+        },
+        {
+            "text": "instalar mudle",
+            "intent": "educativa",
+            "entities": []
+        },
+        {
+            "text": "mudol mobile",
+            "intent": "educativa",
+            "entities": []
+        },
+        {
+            "text": "moodle mobile",
+            "intent": "educativa",
+            "entities": []
+        },
+        {
+            "text": "mudel mobile",
+            "intent": "educativa",
+            "entities": []
+        },
+        {
+            "text": "plataforma",
+            "intent": "educativa",
+            "entities": []
+        },
+        {
+            "text": "plataforma virtual",
+            "intent": "educativa",
+            "entities": []
+        }
+    ],
+    "versionId": "0.1",
+    "name": "unadChat",
+    "desc": "",
+    "culture": "es-es",
+    "tokenizerVersion": "1.0.0",
+    "patternAnyEntities": [],
+    "regex_entities": [],
+    "phraselists": [],
+    "regex_features": [],
+    "patterns": [], 
+    "settings": []
+}
