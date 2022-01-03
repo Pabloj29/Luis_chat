@@ -1,4 +1,5 @@
-{
+[
+    {
     "luis_schema_version": "7.0.0",
     "intents": [
         {
@@ -165,3 +166,5 @@
     "patterns": [], 
     "settings": []
 }
+
+]
